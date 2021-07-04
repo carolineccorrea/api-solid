@@ -20,7 +20,9 @@
   "devDependencies": {
     "@commitlint/cli": "^12.1.1",
     "@commitlint/config-conventional": "^12.1.1",
+    "@shelf/jest-mongodb": "^1.2.5",
     "@types/jest": "^26.0.22",
+    "@types/mongodb": "^3.6.19",
     "@types/node": "^15.0.2",
     "@typescript-eslint/eslint-plugin": "^4.21.0",
     "eslint": "^7.24.0",
@@ -34,6 +36,10 @@
     "typescript": "^4.2.4"
   },
   "dependencies": {
-    "faker": "^5.5.3"
+    "bcrypt": "^5.0.1",
+    "faker": "^5.5.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.6.9",
+    "ts-node": "^10.0.0"
   }
 }
